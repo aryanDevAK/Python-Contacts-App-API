@@ -1,0 +1,47 @@
+.contact-list {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-list h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contact-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.contact-list th,
+.contact-list td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.contact-list th {
+  font-weight: bold;
+}
+
+.contact-list td:last-child {
+  text-align: center;
+}
+
+.contact-list button {
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.contact-list button:hover {
+  background-color: #45a049;
+}
